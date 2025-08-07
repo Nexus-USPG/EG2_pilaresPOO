@@ -5,6 +5,7 @@ public class Evento
     public DateTime Fecha { get; set; }
     public string Tipo { get; set; }
     private string ContactoOrganizador { get; set; }
+    public int Capacidad { get; internal set; }
 
     public Evento(string nombre, DateTime fecha, string tipo, string contactoOrganizador)
     {
